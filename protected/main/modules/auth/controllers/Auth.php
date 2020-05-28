@@ -69,7 +69,7 @@ class Auth extends CI_Controller {
                     $subject_email  = "[$nama] – [$from_email] telah melakukan regitrasi pada [$today]";
                     $template       = $this->load->view("email_notif", $this->data, true);
                     $email_technical = "technical@omeoo.com";
-                    $this->send_email("catatanengineer@gmail.com", "noreplay", "aguswahyuannasir@gmail.com", $from_email, $subject_email, $template);
+                    $this->send_email("catatanengineer@gmail.com", "noreplay", $email_technical, $from_email, $subject_email, $template);
 
                 } else {
                     $this->data['error'] = true;
