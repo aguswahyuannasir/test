@@ -1,0 +1,6 @@
+﻿<?php
+
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'tes');
+define('DB_USER', 'root');
+define('DB_PASS', '');

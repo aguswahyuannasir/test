@@ -1,0 +1,27 @@
+body{
+	overflow: hidden !important;
+}
+
+.label {background-color: #d1dade;color: #5e5e5e;font-weight: 600;padding: 3px 8px;text-shadow: none;border-radius: 0}
+
+.badge {background-color: #d1dade;color: #5e5e5e;font-size: 11px;font-weight: 600;padding-bottom: 4px;padding-left: 6px;padding-right: 6px;text-shadow: none;border-radius: 0}
+
+.label-default {background: transparent;border: 1px solid #727b86;color: #323a45}
+
+.label-primary {background: transparent;border: 1px solid #2196f3;color: #2196f3}
+
+.label-success {background: transparent;border: 1px solid #7cb342;color: #689f38}
+
+.label-info {background: transparent;border: 1px solid #3f51b5;color: #3949ab}
+
+.label-warning {background: transparent;border: 1px solid #f4511e;color: #ff5722}
+
+.label-danger {background: transparent;border: 1px solid #e53935;color: #f44336}
+
+/*============== NOT THEME CSS ===============*/
+
+.modal-header-border { border-bottom: 1px solid #ccc !important; }
+
+.modal-footer-custom { border-top: 1px solid #ccc !important; padding-top: 10px !important; }
+
+.text-right { text-align: right !important; }

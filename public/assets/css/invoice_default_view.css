@@ -1,0 +1,202 @@
+@page {
+    size: A4;
+    margin: 0;
+}
+
+@media print {
+
+    html,
+    body {
+        width: 210mm !important;
+        height: 297mm !important;
+    }
+
+    .d-print-none {
+        display: none !important;
+    }
+
+    .card-content {
+        box-shadow: none !important;
+        font-size: 20px;
+        margin: 0 !important;
+        border: initial !important;
+        border-radius: initial !important;
+        width: initial !important;
+        min-height: initial !important;
+        box-shadow: initial !important;
+        background: initial !important;
+        page-break-after: always !important;
+    }
+
+    table .table-bill {
+        width: 50% !important;
+    }
+
+    thead {
+        -webkit-print-color-adjust: exact;
+        text-align: left;
+        background-color: #eff0f1 !important;
+    }
+
+    thead {
+        -webkit-print-color-adjust: exact;
+        background: #eff0f1 !important;
+    }
+
+    #items td.balance {
+        -webkit-print-color-adjust: exact;
+        background: #eff0f1 !important;
+    }
+
+}
+
+body {
+    font: 14px/1.4 !important;
+    /* font-family: 'Open Sans', 'WebFont-Open Sans'; */
+    font-family: 'Jomolhari', serif;
+}
+
+.item-message {
+    font-size: 14px;
+}
+
+.pcs-orgname {
+    font-weight: bold;
+    font-size: 9pt;
+    color: #333333;
+}
+
+.pcs-entity-title {
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 13pt;
+    color: #333333;
+    z-index: 1;
+}
+
+.pcs-entity-title:before {
+    content: "" !important;
+    display: block !important;
+    border-top: 1px solid #eeeeee !important;
+    width: 100% !important;
+    height: 1pt !important;
+    position: absolute !important;
+    top: 50% !important;
+    font-size: 1pt !important;
+}
+
+.item-invoice {
+    background: white;
+    position: relative;
+    padding: 0 20px;
+}
+
+#customer-subtotal th,
+#customer-subtotal td {
+    border: none !important;
+    margin: 0 !important;
+    padding: 0.5rem;
+}
+
+thead {
+    background: #eff0f1;
+}
+
+.total-number-section {
+    width: 40%;
+    padding-top: 20px;
+    float: left;
+}
+
+.total-section {
+    width: 60%;
+    padding-top: 20px;
+    float: right;
+}
+
+.total-section-label {
+    padding: 5px 10px 5px 0;
+    vertical-align: middle;
+}
+
+.total-section-value {
+    width: 50%;
+    vertical-align: middle;
+    padding: 10px 10px 10px 5px;
+}
+
+.pcs-bdr-top {
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.pcs-balance {
+    background-color: #ffffff;
+    font-size: 9pt;
+    color: #333333;
+}
+
+.item-customer {
+    width: 50% !important;
+    vertical-align: top !important;
+    word-wrap: break-word !important;
+    line-height: 20px !important;
+}
+
+#tmp_billing_address_label {
+    font-size: 14pt !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.item-logo {
+    position: relative;
+    top: -20px;
+}
+
+#tmp_org_address {
+    white-space: pre-wrap !important;
+}
+
+.item-address {
+    width: 40% !important;
+    vertical-align: middle;
+
+}
+
+.item-address p {
+    margin-top: -10px !important;
+}
+
+.customer-name {
+    font-size: 12pt;
+}
+
+.text-primary {
+    color: #007bff !important;
+}
+
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+.customer-address {
+    font-size: 13.5px !important;
+}
+
+.customer-name {
+    font-size: 19px;
+}
+
+.pcs-title {
+    font-size: 14pt;
+}
+
+.pc-entity-title .item-invoice {
+    position: relative !important;
+    top: 20px;
+}
+
+#tmp_entity_number {
+    font-size: 15pt;
+}

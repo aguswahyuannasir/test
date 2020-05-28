@@ -1,0 +1,30 @@
+<?php
+
+$lang['subject'] = 'Subject';
+$lang['title'] = 'Title';
+$lang['code'] = 'Code';
+$lang['payment_link'] = 'Payment Link';
+$lang['customer'] = 'Customer';
+$lang['address'] = 'Address';
+$lang['date'] = 'Date';
+$lang['due_date'] = 'Due Date';
+$lang['expiry_date'] = 'Expiry Date';
+$lang['term'] = 'Term';
+$lang['auto'] = 'AUTO';
+$lang['currency'] = 'Currency';
+$lang['product'] = 'Product';
+$lang['description'] = 'Description';
+$lang['qty'] = 'Qty';
+$lang['tax'] = 'Tax';
+$lang['charges_fee'] = 'Charges Fee';
+$lang['price'] = 'Price';
+$lang['amount'] = 'Amount';
+$lang['unit'] = 'Unit';
+$lang['subtotal'] = 'SubTotal';
+$lang['total'] = 'Total';
+$lang['select_contact'] = 'Select contact';
+$lang['message'] = 'Message';
+$lang['payment'] = 'Payment';
+$lang['invoice'] = 'Invoice';
+$lang['download_pdf'] = 'Download PDF';
+$lang['print'] = 'Print';
